@@ -182,7 +182,56 @@ body {
     width: 100px;
     height: 100px;
 }
-
+.menu {
+    margin: 0;
+    padding: 0;
+    min-width: 1600px;
+    background: url("../assets/images/pattern-2.png") repeat oldlace;
+    text-align: center;
+}
+.menu-itemlist {
+    margin: 0 auto;
+    display: flex;
+    width: 1000px;
+}
+.title {
+    font-family: YesevaOne;
+    font-size: 36pt;
+    color: #cc9900;
+}
+.decoration-menu {
+    display: inline-block;
+    background-image: url("../assets/images/devider-orange.png");
+    width: 247px;
+    height: 24px;
+}
+.menu-name {
+    float: left;
+}
+.menu-price {
+    float: right;
+}
+.menu-item {
+    font-family: YesevaOne;
+    color: #cc9900;
+    font-size: 21pt;
+    display: inline-block;
+    width: 430px;
+}
+.menu-text {
+    font-family: Lato;
+    font-size: 13pt;
+    padding-bottom: 10px;
+}
+.menu-line {
+    background: url('../assets/images/menu-line.png');
+    width: 430px;
+    height: 1px;
+}
+.item {
+    display: block;
+    width: 432px;
+}
 
 /* FOOTER */
 
