@@ -15,6 +15,10 @@
     font-family: Lato;
     src: url('../assets/fonts/Lato/Lato-regular.ttf');
 }
+@font-face {
+    font-family: Murad;
+    src: url('../assets/fonts/murad.otf');
+}
 
 /* BODY */
 body {
@@ -62,7 +66,7 @@ body {
 .navigation-menu-list {
     width: 100%;
     font-family: BookBasic;
-    font-size: 21pt;
+    font-size: 21px;
     left: 20px;
 }
 .navigation-menu ul {
@@ -141,11 +145,11 @@ body {
 
 .content-text p {
     font-family: Lato;
-    font-size: 16pt;
+    font-size: 16px;
 }
 .content-text h3 {
     font-family: YesevaOne;
-    font-size: 36pt;
+    font-size: 36px;
     color: #cc9900;
 }
 .ingridients {
@@ -154,17 +158,20 @@ body {
     min-height: 758px;
 }
 .fine-ingridiets {
-    margin-left: 815px;
+    margin: 100px 0 0 815px;
     width: 570px;
+    background: rgba(0,0,0,.5);
+    border: 1px solid;
+    height: 557px;
 }
 .fine-ingridiets p{
     font-family: Lato;
-    font-size: 16pt;
+    font-size: 16px;
     margin-bottom: 0px;
 }
 .fine-ingr-head p{
     font-family: YesevaOne;
-    font-size: 36pt;
+    font-size: 36px;
     margin-bottom: 0px;
     color: #ffffff;
 }
@@ -196,7 +203,7 @@ body {
 }
 .title {
     font-family: YesevaOne;
-    font-size: 36pt;
+    font-size: 36px;
     color: #cc9900;
 }
 .decoration-menu {
@@ -214,13 +221,13 @@ body {
 .menu-item {
     font-family: YesevaOne;
     color: #cc9900;
-    font-size: 21pt;
+    font-size: 21px;
     display: inline-block;
     width: 430px;
 }
 .menu-text {
     font-family: Lato;
-    font-size: 13pt;
+    font-size: 13px;
     padding-bottom: 10px;
 }
 .menu-line {
@@ -232,40 +239,93 @@ body {
     display: block;
     width: 432px;
 }
+.reviews {
+    background: url('../assets/images/bg-garnier.jpg');
+    height: 754px;
+    display: flex;
+}
+.reviews-bg {
+    margin: 100px 0 0 415px;
+    width: 770px;
+    background: rgba(0,0,0,.5);
+    border: 1px solid;
+    height: 557px;
+}
 
+.guest-header {
+    font-family: YesevaOne;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.guest-about {
+    font-family: Murad;
+    font-size: 25px;
+    color: #ffffff;
+}
+.guest-quote {
+    font-family: Murad;
+    font-size: 18px;
+    color: #ffffff;
+}
+.reservations {
+    display: flex;
+    height: 700px;
+}
+.reservations-right {
+    float: right;
+}
+.reservations-header {
+    font-family: YesevaOne;
+    font-size: 36px;
+    color: #cc9900;
+}
+.reservations-text {
+    font-family: Lato;
+    font-size: 16px;
+}
+.reservations-left,
+.reservations-right {
+    margin: auto;
+}
+.input-props {
+    float: left;
+}
+.input-props label {
+    float: left;
+}
 /* FOOTER */
 
 footer {
     display: flex;
-    background-color: grey;
+    background-color: #000000;
     text-align: center;
     bottom: 0;
     width: 1600px;
-}
-footer p {
-    margin: 0;
+    height: 320px;
 }
 
 .about-us {
-    width: 33%;
-    display: block;
+    font-family: YesevaOne;
+    font-size: 21px;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.about-text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #ffffff;
+}
+.opening-hours-text {
+    font-family: Murad;
+    font-size: 16px;
+    color: #ffffff;
+}
+.location-text {
+    font-family: Murad;
+    font-size: 16px;
+    color: #ffffff;
 }
 
-.opening {
-    width: 33%;
-}
-
-.location {
-    width: 33%;
-}
-.social-icons {
-    display: inline-block;
-}
-
-/* ICONS */
-
-.facebook {
-    display: inline-block;
-    background: url('../assets/icons/facebook.svg') no-repeat top left;
-}
-.facebook-a{ background-position: 0 0; width: 32px; height: 32px; } 
