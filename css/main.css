@@ -1,24 +1,7 @@
-/* FONTS */
-@font-face {
-    font-family: OpenSans;
-    src: url('../assets/fonts/OpenSans/OpenSans-Regular.ttf');
-}
 @font-face {
     font-family: YesevaOne;
     src: url('../assets/fonts/YesevaOne/YesevaOne-Regular.ttf');
-}
-@font-face {
-    font-family: BookBasic;
-    src: url('../assets/fonts/GentiumBookBasic/GenBkBasB.ttf');
-}
-@font-face {
-    font-family: Lato;
-    src: url('../assets/fonts/Lato/Lato-regular.ttf');
-}
-@font-face {
-    font-family: Murad;
-    src: url('../assets/fonts/murad.otf');
-}
+  }
 
 /* BODY */
 body {
@@ -40,11 +23,11 @@ body {
     display: flex;
     width: 100%;
     position: relative;
+    height: 110px;
 }
 .logo {
     display: flex;
-    width: 20%;
-    margin-left: 176px;
+    margin: auto 176px;
 }
 .logo-image {    
     background: url('../assets/images/logo.png');
@@ -52,22 +35,24 @@ body {
     height: 26px;
 }
 .social-links{
-    width: 20%;
+    margin: auto 0;
+}
+.social-links a {
+    text-decoration: none;
+    color: #cc9900;
 }
 .navigation-links{
     display: flex;
-    width: 60%;
 }
 .navigation-menu {
-    width: 100%;
-    margin: 0 auto;
-    position: center;
+    margin: auto 0;
 }
-.navigation-menu-list {
-    width: 100%;
+.navigation-menu-list-a {
     font-family: BookBasic;
     font-size: 21px;
-    left: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: #ffffff;
 }
 .navigation-menu ul {
     display: flex;
@@ -75,20 +60,23 @@ body {
     list-style-type: none;
     position: relative;
     text-decoration: none;
+    width: 710px;
 }
 .navigation-menu-list ul>li {
-    width: 10%;
+    margin: auto;
+    text-decoration: none;
 }
-.navigation-links a {
-        text-align: center;
-        text-decoration: none;
+.navigation-menu-list li {
+    margin: 0 auto;
+}
+.navigation-links-menu ul>li a {
+    text-align: center;
+    text-decoration: none;
 }
 .active {
     border-top: 2px solid grey;
 }
-.social-links {
-    float: right;
-}
+
 
 .header-content {
     text-align: center;
@@ -99,11 +87,51 @@ body {
     padding: 230px 0 36px 0;
 }
 .header-content-text {
-    text-shadow: grey;
+    text-shadow: 1px 0px 2px #000000, 0 0 1em #000000;
     font-family: YesevaOne;
     font-size: 90px;
     color: #ffffff;
 }
+.book-button {
+    display: flex;
+    width: 228px;
+    background: rgba(0,0,0,.5);
+    border: 1px solid #000000;
+    height: 57px;
+}
+.book-now {
+    display: flex;
+    width: 200px;
+    background: rgba(200,159,45,.5);
+    border: 1px solid #c89f2d;
+    height: 36px;
+    margin: auto
+}
+.book-now a {
+    color:#ffffff;
+    text-decoration: none;
+    margin: auto;
+}
+.book-button a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+}
+.see-menu {
+    display: flex;
+    width: 228px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ffffff;
+    height: 57px;
+    margin-left: 30px;
+}
+.see-menu a {
+    color: #ffffff;
+    text-decoration: none;  
+    margin: auto;
+}
+
+
 
 /* WRAPPER */
 .wrapper {
@@ -122,9 +150,10 @@ body {
     width: 232px;
     height: 43px;
 }
-.header-content-button a {
-    border: 1px solid;
-    text-decoration: none;
+.header-content-button {
+    margin: 0 auto;
+    display: flex;
+    padding-left: 555px;
 }
 .navigation {
     display: grid;
@@ -140,18 +169,10 @@ body {
     height: 24px;
 }
 .content-text {
-    margin-left: 282px;
+    margin: auto;
+    padding-left: 250px;
 }
 
-.content-text p {
-    font-family: Lato;
-    font-size: 16px;
-}
-.content-text h3 {
-    font-family: YesevaOne;
-    font-size: 36px;
-    color: #cc9900;
-}
 .ingridients {
     display: flex;
     background: url('../assets/images/bg-ingridiends.jpg');
@@ -164,15 +185,14 @@ body {
     border: 1px solid;
     height: 557px;
 }
-.fine-ingridiets p{
+.fine-ingr-text p{
     font-family: Lato;
     font-size: 16px;
-    margin-bottom: 0px;
+    color: #ffffff;
 }
 .fine-ingr-head p{
     font-family: YesevaOne;
     font-size: 36px;
-    margin-bottom: 0px;
     color: #ffffff;
 }
 
@@ -182,12 +202,21 @@ body {
     width: 247px;
     height: 24px;
 }
+.image {
+    margin: auto;
+    padding-right: 250px;
+}
+.image-circle {
+    display: flex;
+    margin: 80px;
+}
 .image-circle img {
-    border: 9px solid;  
+    border: 6px solid;  
     border-color: #564d42;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    margin: auto;
 }
 .menu {
     margin: 0;
@@ -198,8 +227,7 @@ body {
 }
 .menu-itemlist {
     margin: 0 auto;
-    display: flex;
-    width: 1000px;
+    padding: 100px;
 }
 .title {
     font-family: YesevaOne;
@@ -228,7 +256,10 @@ body {
 .menu-text {
     font-family: Lato;
     font-size: 13px;
-    padding-bottom: 10px;
+    padding: 20px 0;
+    width: 430px;
+    text-align: left;
+    margin: 0;
 }
 .menu-line {
     background: url('../assets/images/menu-line.png');
@@ -236,8 +267,10 @@ body {
     height: 1px;
 }
 .item {
-    display: block;
-    width: 432px;
+    display: inline-block;
+    vertical-align: top;
+    width: 430px;
+    padding: 0 80px;
 }
 .reviews {
     background: url('../assets/images/bg-garnier.jpg');
@@ -271,10 +304,13 @@ body {
 }
 .reservations {
     display: flex;
-    height: 700px;
+    height: 710px;
 }
 .reservations-right {
     float: right;
+    height: 510px;
+    vertical-align: top;
+    width: 435px;
 }
 .reservations-header {
     font-family: YesevaOne;
@@ -289,11 +325,23 @@ body {
 .reservations-right {
     margin: auto;
 }
+.reservations-img img {
+    padding: 0 15px;
+}
 .input-props {
+    float: left;
+}
+.input-props-right {
+    float: right;
+}
+.input-props-right label {
     float: left;
 }
 .input-props label {
     float: left;
+}
+.reservation-form form{
+    height: 189px;
 }
 /* FOOTER */
 

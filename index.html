@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <title>Made by Sergey Andreev</title>
 </head>
@@ -13,24 +14,22 @@
         <header class="head">
             <div class="top-navigation">
                 <div class="logo">
-                    <a class="logo-image" href="" alt="logo"></a></div>
-                <div class="navigation-links">
+                    <a class="logo-image" href="" alt="logo"></a>
+                </div>
                     <nav class="navigation-menu">
                         <ul class="navigation-menu-list">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Ingredients</a></li>
-                            <li><a href="">Menu</a></li>
-                            <li><a href="">Reviews</a></li>
-                            <li><a href="">Reservations</a></li>
+                            <li class="active"><a class="navigation-menu-list-a"href="#">Home</a></li>
+                            <li><a class="navigation-menu-list-a" href="">About</a></li>
+                            <li><a class="navigation-menu-list-a" href="">Ingredients</a></li>
+                            <li><a class="navigation-menu-list-a" href="">Menu</a></li>
+                            <li><a class="navigation-menu-list-a" href="">Reviews</a></li>
+                            <li><a class="navigation-menu-list-a" href="">Reservations</a></li>
                         </ul>
                     </nav>
-                </div>
                 <div class="social-links">
-                    <a href="#">Social</a>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
             </section>
         </header>
         <main>
@@ -42,20 +41,26 @@
                     </div>
                     <div class="header-decoration"></div>
                     <div class="header-content-button">
-                        <a href="#" class="book-button">book a table</a>
-                        <a href="#" class="see-menu">see the menu</a>
+                        <div class="book-button">
+                            <a href="#" class="font-lato-small">book a table</a>
+                        </div>
+                        <div class="see-menu">
+                            <a href="#" class="font-lato-small">see the menu</a>
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="about">
-                <div class="content-text">
-                    <h3>Just the right food</h3>
+                <div class="content-text font-yeseva-middle">
+                    <p>Just the right food</p>
                     <div class="decoration-about"></div>
-                    <p>If you’ve been to one of our restaurants, you’ve seen – and <br>
-                    tasted – what keeps our customers coming back for more. <br>
-                    Perfect materials and freshly baked food, delicious Lambda <br>
-                    cakes,  muffins, and gourmet coffees make us hard to resist! <br>
-                    Stop in today and check us out!</p>
+                    <div class="font-lato-small2">
+                        <p>If you’ve been to one of our restaurants, you’ve seen – and <br>
+                        tasted – what keeps our customers coming back for more. <br>
+                        Perfect materials and freshly baked food, delicious Lambda <br>
+                        cakes,  muffins, and gourmet coffees make us hard to resist! <br>
+                        Stop in today and check us out!</p>
+                    </div>
                     <img src="./assets/images/cook.png" alt="cook">
                 </div>
                 <div class="image">
@@ -68,11 +73,13 @@
                         <p>Fine ingredients</p>
                     </div>
                     <div class="fine-ingridients-decoration"></div>
-                    <p>If you’ve been to one of our restaurants, you’ve seen – and <br>
-                    tasted – what keeps our customers coming back for more. <br>
-                    Perfect materials and freshly baked food, delicious Lambda <br>
-                    cakes,  muffins, and gourmet coffees make us hard to resist! <br>
-                    Stop in today and check us out!</p>
+                    <div class="fine-ingr-text">
+                        <p>If you’ve been to one of our restaurants, you’ve seen – and <br>
+                        tasted – what keeps our customers coming back for more. <br>
+                        Perfect materials and freshly baked food, delicious Lambda <br>
+                        cakes,  muffins, and gourmet coffees make us hard to resist! <br>
+                        Stop in today and check us out!</p>
+                    </div>
                     <div class="image-circle">
                         <img src="./assets/images/ingrids-look.jpg" alt="look" >
                         <img src="./assets/images/ingrids-hren.jpg" alt="hren">
@@ -143,6 +150,34 @@
                     <div class="menu-line"></div>
                     <div class="menu-text">Pureed eggplant, garlic, green pepper and tomato dip.</div>
                 </div>
+                <div class="item">
+                    <div class="title">Main Dishes</div>
+                    <div class="decoration-menu"></div>
+                    <div class="menu-item">
+                        <div class="menu-name">Cornish Mackerel</div>
+                        <div class="menu-price">$ 5.99</div>
+                    </div>
+                    <div class="menu-line"></div>
+                    <div class="menu-text">Refreshing traditional cucumber and garlic yoghurt dip.</div>
+                    <div class="menu-item">
+                        <div class="menu-name">Roast Lamb</div>
+                        <div class="menu-price">$ 5.50</div>
+                    </div>
+                    <div class="menu-line"></div>
+                    <div class="menu-text">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+                    <div class="menu-item">
+                        <div class="menu-name">Fried Chicken</div>
+                        <div class="menu-price">$ 5.25</div>
+                    </div>
+                    <div class="menu-line"></div>
+                    <div class="menu-text">Pureed eggplant, garlic, green pepper and tomato dip.</div>
+                    <div class="menu-item">
+                        <div class="menu-name">Pastitso</div>
+                        <div class="menu-price">$ 5.99</div>
+                    </div>
+                    <div class="menu-line"></div>
+                    <div class="menu-text">Refreshing traditional cucumber and garlic yoghurt dip.</div>
+                </div>
             </div>
             </section>
             <section class="reviews">
@@ -151,7 +186,7 @@
                         <div class="guest-header">Guest Reviews</div>
                         <div class="fine-ingridients-decoration"></div>
                         <div class="guest-about">
-                            <p>If you’ve been to one of our restaurants, you’ve seen – and <br>
+                            <p><i class="fas fa-quote-left"></i>  If you’ve been to one of our restaurants, you’ve seen – and <br>
                             tasted – what keeps our customers coming back for more. <br>
                             Perfect materials and freshly baked food, delicious Lambda <br>
                             cakes,  muffins, and gourmet coffees make us hard to resist! <br>
@@ -187,7 +222,7 @@
                                 <label for="name">Name</label><br>
                                 <input type="text" name="name" value="" placeholder="your name *">
                             </div>
-                            <div class="input-props">
+                            <div class="input-props-right">
                                 <label for="email">Email</label><br>
                                 <input type="email" name="email" placeholder="your e-mail *">
                             </div>
@@ -195,13 +230,15 @@
                                 <label for="date">Date</label><br>
                                 <input type="date" name="date" placeholder="date *">
                             </div>
-                            <div class="input-props">
+                            <div class="input-props-right">
                                 <label for="number">Party number</label><br>
                                 <input type="text" name="number" placeholder="party number *">
                             </div>
                         </form>
+                        <div class="book-now">
+                                <a href="#" class="">book now!</a>
+                            </div>
                     </div>
-                    <button>Book now!</button>
                 </div>
             </section>
         </main>
